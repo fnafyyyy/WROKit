@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Visual C++ Redistributable",
+    "type": "exe",
+    "path": "instalki/VC_redist.x64.exe",
+    "params": ["/quiet", "/norestart"]
+  },
+  {
+    "name": "Java Runtime",
+    "type": "exe",
+    "path": "instalki/jre-8u331-windows-x64.exe",
+    "params": ["/s"]
+  },
+  {
+    "name": "HAOS",
+    "type": "custom_haos",
+    "zip": "instalki/haos_1.9.8.zip"
+  },
+  {
+    "name": "AnyConnect VPN",
+    "type": "anyconnect_zip",
+    "zip": "instalki/anyconnect-win-4.8.03052-predeploy-k9.zip"
+  },
+  {
+  "name": "ESET Protect",
+  "type": "exe",
+  "path": "instalki/PROTECT_Installer_x64_en_US-2.exe",
+  "params": ["--silent", "--norestart", "--accepteula", "/log", "eset_install.log"]
+  },
+  {
+    "name": "TightVNC",
+    "type": "msi",
+    "path": "instalki/tightvnc-2.8.81-gpl-setup-64bit.msi"
+  }
+]
