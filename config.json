@@ -28,8 +28,24 @@
   "params": ["--silent", "--norestart", "--accepteula", "/log", "eset_install.log"]
   },
   {
+  "name": "Chrome",
+  "type": "exe",
+  "path": "instalki/ChromeSetup.exe",
+  "params": ["--silent", "--norestart", "--accepteula"]
+  },
+  {
     "name": "TightVNC",
     "type": "msi",
     "path": "instalki/tightvnc-2.8.81-gpl-setup-64bit.msi"
+  },
+  {
+    "name": "ODBC",
+    "type": "msi",
+    "path": "instalki/mysql-connector-odbc-9.0.0-winx64.msi"
+  },
+  {
+  "name": "Inflot",
+  "type": "custom_inflot",
+  "zip": "instalki/inflot.zip"
   }
 ]
